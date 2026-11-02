@@ -30,6 +30,20 @@ INGREDIENT_ALIASES = {
     "all purpose flour": "all-purpose flour",
     "plain flour": "all-purpose flour",
     "baking soda": "bicarbonate of soda",
+    "cow milk": "milk",
+    "gajjar": "carrot",
+    "cow peas": "cowpea",
+    "cow pea": "cowpea",
+    "cowpeas": "cowpea",
+    "black eyed peas": "cowpea",
+    "black eyed pea": "cowpea",
+    "black-eyed peas": "cowpea",
+    "black-eyed pea": "cowpea",
+    "black eyed beans": "cowpea",
+    "black eyed bean": "cowpea",
+    "black-eyed beans": "cowpea",
+    "black-eyed bean": "cowpea",
+    "lobia": "cowpea",
 }
 
 
@@ -140,12 +154,20 @@ def canonicalize_ingredient(ingredient):
     for candidate in candidates:
         candidate = clean_ingredient_name(candidate)
         candidate = re.sub(r"[()]", "", candidate).strip()
-        candidate = singularize_ingredient(candidate)
 
         if candidate in INGREDIENT_ALIASES:
             return INGREDIENT_ALIASES[candidate]
 
+        singular_candidate = singularize_ingredient(candidate)
+
+        if singular_candidate in INGREDIENT_ALIASES:
+            return INGREDIENT_ALIASES[singular_candidate]
+
     main_name = re.sub(r"[()]", "", main_name).strip()
+
+    if main_name in INGREDIENT_ALIASES:
+        return INGREDIENT_ALIASES[main_name]
+
     main_name = singularize_ingredient(main_name)
 
     return INGREDIENT_ALIASES.get(main_name, main_name)

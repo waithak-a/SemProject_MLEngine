@@ -38,14 +38,67 @@ PREPARATION_WORDS = {
     "frozen",
 }
 
+# Ingredient synonyms/aliases. These are foods that should count as the
+# same ingredient even though their names differ.
+INGREDIENT_ALIASES = {
+    "aubergine": "eggplant",
+    "eggplants": "eggplant",
+    "courgette": "zucchini",
+    "courgettes": "zucchini",
+    "capsicum": "bell pepper",
+    "capsicums": "bell pepper",
+    "cilantro": "coriander",
+    "coriander leaves": "coriander",
+    "scallions": "spring onion",
+    "green onions": "spring onion",
+    "spring onions": "spring onion",
+    "garbanzo beans": "chickpea",
+    "garbanzo bean": "chickpea",
+    "chickpeas": "chickpea",
+    "black eyed peas": "cowpea",
+    "black eyed pea": "cowpea",
+    "black-eyed peas": "cowpea",
+    "black-eyed pea": "cowpea",
+    "black eyed beans": "cowpea",
+    "black eyed bean": "cowpea",
+    "black-eyed beans": "cowpea",
+    "black-eyed bean": "cowpea",
+    "cow peas": "cowpea",
+    "cow pea": "cowpea",
+    "cowpeas": "cowpea",
+    "lobia": "cowpea",
+    "gajjar": "carrot",
+    "minced beef": "ground beef",
+    "minced meat": "ground meat",
+    "icing sugar": "powdered sugar",
+    "confectioners sugar": "powdered sugar",
+    "all purpose flour": "all-purpose flour",
+    "plain flour": "all-purpose flour",
+    "baking soda": "bicarbonate of soda",
+    "cow milk": "milk",
+}
+
+# Foods that are wording-similar but are NOT the same food.
+CONFLICTING_INGREDIENT_PAIRS = {
+    ("milk", "coconut milk"),
+    ("milk", "almond milk"),
+    ("milk", "oat milk"),
+    ("milk", "soy milk"),
+    ("milk", "soya milk"),
+    ("milk", "rice milk"),
+    ("potato", "sweet potato"),
+    ("green peas", "black eyed peas"),
+    ("green peas", "cowpea"),
+    ("white rice", "brown rice"),
+    ("beef", "chicken"),
+}
+
 NON_PLURAL_S_WORDS = {
     "asparagus",
     "couscous",
     "hummus",
     "molasses",
 }
-
-# Cache embeddings to avoid repeatedly encoding the same ingredient.
 EMBEDDING_CACHE = {}
 
 SEMANTIC_MODEL = None
@@ -138,10 +191,19 @@ def normalize_ingredient(ingredient):
     if not cleaned:
         return ""
 
+    # Apply synonym aliases before singularisation.
+    if cleaned in INGREDIENT_ALIASES:
+        return INGREDIENT_ALIASES[cleaned]
+
     words = cleaned.split()
     words[-1] = singularize_word(words[-1])
 
-    return " ".join(words)
+    normalized = " ".join(words)
+
+    if normalized in INGREDIENT_ALIASES:
+        return INGREDIENT_ALIASES[normalized]
+
+    return normalized
 
 
 def normalize_ingredient_list(ingredients):
@@ -233,6 +295,39 @@ def is_conflicting_milk_match(first, second):
     )
 
 
+def is_conflicting_match(first, second):
+    """Return True when two ingredients must never be treated as the same food."""
+    first_norm = normalize_ingredient(first)
+    second_norm = normalize_ingredient(second)
+
+    if first_norm == second_norm:
+        return False
+
+    if (first_norm, second_norm) in CONFLICTING_INGREDIENT_PAIRS:
+        return True
+
+    if (second_norm, first_norm) in CONFLICTING_INGREDIENT_PAIRS:
+        return True
+
+    # Milk families are never interchangeable.
+    if is_conflicting_milk_match(first, second):
+        return True
+
+    return False
+
+
+def are_known_synonyms(first, second):
+    """Return True only for explicitly accepted synonym pairs."""
+    first_norm = normalize_ingredient(first)
+    second_norm = normalize_ingredient(second)
+
+    if not first_norm or not second_norm:
+        return False
+
+    if first_norm == second_norm:
+        return True
+
+    return False
 def semantic_similarity(first, second, embeddings):
     """Calculate cosine similarity between two ingredient names."""
     first_text = clean_ingredient_text(first)
@@ -299,7 +394,23 @@ def match_ingredients(user_ingredients, recipe_ingredients):
         unmatched_recipes.remove(name)
 
     # Stage 2: semantic matching for remaining ingredients.
-    if ENABLE_SEMANTIC_MATCHING and unmatched_users and unmatched_recipes:
+    # Synonym pairs are already exact matches after canonicalisation, so
+    # there is normally nothing to do here.  Keep the guard so the
+    # embedding model is never loaded unless an accepted synonym pair
+    # actually remains unmatched.
+    synonym_pairs_exist = any(
+        are_known_synonyms(user_items[u], recipe_items[r])
+        and not is_conflicting_match(user_items[u], recipe_items[r])
+        for u in unmatched_users
+        for r in unmatched_recipes
+    )
+
+    if (
+        ENABLE_SEMANTIC_MATCHING
+        and unmatched_users
+        and unmatched_recipes
+        and synonym_pairs_exist
+    ):
         user_candidates = [
             user_items[name]
             for name in unmatched_users
@@ -326,7 +437,16 @@ def match_ingredients(user_ingredients, recipe_ingredients):
                 recipe_original = recipe_items[recipe_name]
 
                 # Protect against known ingredient conflicts.
-                if is_conflicting_milk_match(
+                if is_conflicting_match(
+                    user_original,
+                    recipe_original,
+                ):
+                    continue
+
+                # Semantic matching must not merge foods that are merely
+                # wording-similar. Only explicitly accepted synonyms may be
+                # matched here; all other pairs stay distinct.
+                if not are_known_synonyms(
                     user_original,
                     recipe_original,
                 ):
@@ -465,7 +585,7 @@ def load_recipes():
             f"Recipe dataset not found: {RECIPE_FILE}"
         )
 
-    df = pd.read_csv(RECIPE_FILE)
+    df = pd.read_csv(RECIPE_FILE, dtype=str)
 
     if "ingredients_normalized" not in df.columns:
         raise ValueError(

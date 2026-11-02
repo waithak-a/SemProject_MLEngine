@@ -244,7 +244,7 @@ def main():
 
     rng = random.Random(RANDOM_SEED)
 
-    df = pd.read_csv(INPUT_FILE)
+    df = pd.read_csv(INPUT_FILE, dtype=str)
 
     if "title_clean" not in df.columns:
         raise ValueError(

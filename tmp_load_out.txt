@@ -1,0 +1,3 @@
+COUNT 6903
+FIRST Kaimati(Fried Dumplings)
+INGS ['wheat flour', 'water', 'vanilla essence', 'cardamom', 'yeast']
