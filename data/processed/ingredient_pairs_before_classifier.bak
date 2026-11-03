@@ -1,0 +1,361 @@
+ingredient_a,ingredient_b,cosine_similarity,embedding_distance,word_overlap,token_containment,character_similarity,length_difference,normalized_length_difference,label,auto_label,status,source,reason
+aam papad (sun dried mango),raw papaya,0.6465160846710205,0.3534836769104004,0.0,0.0,0.3783783783783784,17.0,0.6296296296296297,,0,PENDING,automatic;review,Different ingredient modifiers
+aerated water,soda water,0.5145660638809204,,,,,,,,REVIEW,PENDING,candidates,
+alfalfa powder,jal jeera powder,0.5405869483947754,,,,,,,,REVIEW,PENDING,candidates,
+alkanet,ratan jot,0.1901621520519256,,,,,,,,REVIEW,PENDING,candidates,
+all purpose flour,maida,0.2276107966899871,,,,,,,,REVIEW,PENDING,candidates,
+almond,almond oil (badam oil),0.6201049089431763,,,,,,,,REVIEW,PENDING,candidates,
+almond,margarine,0.4841775000095367,,,,,,,,REVIEW,PENDING,candidates,
+aloo bhujia,saoji masala,0.4931695163249969,0.506830483675003,0.0,0.0,0.2608695652173913,1.0,0.0833333333333333,,REVIEW,PENDING,automatic;review,Requires further verification
+aloo tikki (potato),bay leaves (tej patta),0.3926046788692474,,,,,,,,REVIEW,PENDING,candidates,
+amchur,dry mango powder,0.0941958725452423,,,,,,,,REVIEW,PENDING,candidates,
+amla,nellikai/ gooseberry,0.1908512115478515,,,,,,,,REVIEW,PENDING,candidates,
+anardana powder (pomegranate seed powder),bermuda grass powder,0.5008196234703064,,,,,,,,REVIEW,PENDING,candidates,
+anardana powder (pomegranate seed powder),hazelnut meal (powder),0.5315791964530945,,,,,,,,REVIEW,PENDING,candidates,
+apple puree,rose essence,0.4388698041439056,,,,,,,,REVIEW,PENDING,candidates,
+arhar dal,split toor dal,0.5085052847862244,,,,,,,,REVIEW,PENDING,candidates,
+avarekai (broad beans),long string bean (chavli),0.4171590805053711,,,,,,,,REVIEW,PENDING,candidates,
+avocados,pecans,0.5542112588882446,,,,,,,,REVIEW,PENDING,candidates,
+bacon,butter,0.5016658902168274,,,,,,,,REVIEW,PENDING,candidates,
+badam,slivered almonds,0.1595196425914764,,,,,,,,REVIEW,PENDING,candidates,
+badi (wadi),black cardamom (badi elaichi),0.4556629061698913,,,,,,,,REVIEW,PENDING,candidates,
+barbeque masala,raita masala,0.5912010073661804,,,,,,,,REVIEW,PENDING,candidates,
+barley,seeds,0.5485867261886597,,,,,,,,REVIEW,PENDING,candidates,
+basmati rice,medu vada,0.42032390832901,,,,,,,,REVIEW,PENDING,candidates,
+bathua leaves,spinach leaves (palak),0.4436146020889282,,,,,,,,REVIEW,PENDING,candidates,
+bean sprouts,canned black beans,0.5627759695053101,,,,,,,,REVIEW,PENDING,candidates,
+beer,ice wine,0.463653564453125,,,,,,,,REVIEW,PENDING,candidates,
+beetel leaves,brahmi leaves,0.4646395146846771,,,,,,,,REVIEW,PENDING,candidates,
+beetroot greens,green beans (french beans),0.5515459775924683,,,,,,,,REVIEW,PENDING,candidates,
+beetroot juice,grape juice,0.6705158352851868,,,,,,,,REVIEW,PENDING,candidates,
+betel leaves,paan,0.2300592064857483,,,,,,,,REVIEW,PENDING,candidates,
+bhakarwdis,blue cheese,0.3809775114059448,,,,,,,,REVIEW,PENDING,candidates,
+bhetki fish,brinjal (baingan / eggplant),0.4185048341751098,,,,,,,,REVIEW,PENDING,candidates,
+bhindi,lady finger/okra,0.1744280904531479,,,,,,,,REVIEW,PENDING,candidates,
+bhindi/okra/vendaikkai,khoya (mawa),0.5181595087051392,0.4818405508995056,0.0,0.0,0.2941176470588235,10.0,0.4545454545454545,,REVIEW,PENDING,automatic;review,Requires further verification
+bilimbi,bimbla,0.6976709961891174,,,,,,,,REVIEW,PENDING,candidates,
+black cardamom,black pepper,0.5540703535079956,,,,,,,,REVIEW,PENDING,candidates,
+black currant (dried),mixed herbs (dried),0.5117578506469727,0.4882422685623169,0.2,0.3333333333333333,0.45,2.0,0.0952380952380952,,0,PENDING,automatic;review,Different ingredient modifiers
+black olives,black sesame seeds,0.4875620603561401,,,,,,,,REVIEW,PENDING,candidates,
+black olives,kalamata olives,0.7280786633491516,0.2719212770462036,0.3333333333333333,0.5,0.6666666666666666,3.0,0.2,,0,PENDING,automatic;review,Different ingredient modifiers
+black pepper powder,thandai powder,0.6223742961883545,,,,,,,,REVIEW,PENDING,candidates,
+black plum,jamun,0.2261004298925399,,,,,,,,REVIEW,PENDING,candidates,
+blueberries,turkey berry,0.5899450778961182,,,,,,,,REVIEW,PENDING,candidates,
+botis,meat goat,0.3507882058620453,,,,,,,,REVIEW,PENDING,candidates,
+brahmi leaves,kaffir lime leaves,0.4718182682991028,0.5281816720962524,0.25,0.5,0.5806451612903226,5.0,0.2777777777777778,,REVIEW,PENDING,automatic;review,Requires further verification
+buckwheat flour,kuttu ka atta,0.042675495147705,,,,,,,,REVIEW,PENDING,candidates,
+bulb & greens,spring onion,0.2996817529201507,,,,,,,,REVIEW,PENDING,candidates,
+bulgur wheat,oatmeal flour,0.5578986406326294,,,,,,,,REVIEW,PENDING,candidates,
+butter,unsalted,0.2935369908809662,,,,,,,,REVIEW,PENDING,candidates,
+cabbage,patta gobi/ muttaikose,0.157505601644516,,,,,,,,REVIEW,PENDING,candidates,
+cake/ candy sprinkles,decorative sugar,0.4997566938400268,,,,,,,,REVIEW,PENDING,candidates,
+camel meat,fresh coconut,0.4724124670028686,,,,,,,,REVIEW,PENDING,candidates,
+cane sugar,icing sugar,0.5022848844528198,,,,,,,,REVIEW,PENDING,candidates,
+canned beans,vaal beans,0.5986354351043701,,,,,,,,REVIEW,PENDING,candidates,
+canned tuna,sardine fish,0.5317440032958984,,,,,,,,REVIEW,PENDING,candidates,
+capsicum,green capsicum,0.8914253115653992,,,,,,,,REVIEW,PENDING,candidates,
+carrot cake,chocolate cake,0.692426323890686,,,,,,,,REVIEW,PENDING,candidates,
+cayenne pepper,mexican seasoning,0.3583505749702453,,,,,,,,REVIEW,PENDING,candidates,
+chana dal (bengal gram dal),हंग,0.5531543493270874,,,,,,,,REVIEW,PENDING,candidates,
+chana jor garam,raita masala,0.486760139465332,,,,,,,,REVIEW,PENDING,candidates,
+chenna,homemade cottage cheese,0.0785710141062736,,,,,,,,REVIEW,PENDING,candidates,
+chicken masala,kebab masala,0.7019696235656738,0.2980301976203918,0.3333333333333333,0.5,0.6923076923076923,2.0,0.1428571428571428,,REVIEW,PENDING,automatic;review,Requires further verification
+chikoo (sapota fruit),fresh fruits,0.5239930152893066,,,,,,,,REVIEW,PENDING,candidates,
+chilli pepper,crushed ice,0.4200005531311035,,,,,,,,REVIEW,PENDING,candidates,
+chilli pepper,green chilli,0.796406626701355,0.203593373298645,0.3333333333333333,0.5,0.48,1.0,0.0769230769230769,,0,PENDING,automatic;review,Different ingredient modifiers
+chinese potato,mushroom stems,0.3915690779685974,,,,,,,,REVIEW,PENDING,candidates,
+chinese rice wine,raw rice,0.5977327823638916,,,,,,,,REVIEW,PENDING,candidates,
+chocolate bar,lamb ribs,0.4433422982692718,,,,,,,,REVIEW,PENDING,candidates,
+clove powder,laung,0.2030223459005355,,,,,,,,REVIEW,PENDING,candidates,
+cloves,laung,0.1999435424804687,,,,,,,,REVIEW,PENDING,candidates,
+coconut milk,guava,0.4842786788940429,,,,,,,,REVIEW,PENDING,candidates,
+colostrum (early milk),cow cream,0.4671500027179718,,,,,,,,REVIEW,PENDING,candidates,
+coriander (dhania) powder,coriander seeds,0.6552022099494934,0.3447977900505066,0.25,0.5,0.55,10.0,0.4,,REVIEW,PENDING,automatic;review,Requires further verification
+coriander powder,dhania,0.1964927017688751,,,,,,,,REVIEW,PENDING,candidates,
+crackers,ice cream,0.4053553342819214,,,,,,,,REVIEW,PENDING,candidates,
+cream of tartar,double cream,0.5770270824432373,,,,,,,,REVIEW,PENDING,candidates,
+cumin powder (jeera),red chilli powder,0.5866628289222717,,,,,,,,REVIEW,PENDING,candidates,
+curry,kala jeera,0.416167140007019,,,,,,,,REVIEW,PENDING,candidates,
+custard apple (sitaphal),ice apple (nongu),0.5278222560882568,,,,,,,,REVIEW,PENDING,candidates,
+dried,mixed herbs,0.2358844578266143,,,,,,,,REVIEW,PENDING,candidates,
+dried fenugreek leaves,kasuri methi,0.0473610535264015,,,,,,,,REVIEW,PENDING,candidates,
+dried mango,mangai vathal,0.2682184875011444,,,,,,,,REVIEW,PENDING,candidates,
+dried termite,dried turmeric,0.5079233646392822,,,,,,,,REVIEW,PENDING,candidates,
+dry coconut,kopra,0.2576643228530884,,,,,,,,REVIEW,PENDING,candidates,
+dry coconut (kopra),kewra essence,0.399906188249588,,,,,,,,REVIEW,PENDING,candidates,
+duck,pumpkin,0.4863994121551513,,,,,,,,REVIEW,PENDING,candidates,
+edible camphor,pacha karpooram,0.1919180899858474,,,,,,,,REVIEW,PENDING,candidates,
+english cucumbers,kachri (wild cucumber),0.6585898399353027,,,,,,,,REVIEW,PENDING,candidates,
+fennel seeds,saunf,0.1157986521720886,,,,,,,,REVIEW,PENDING,candidates,
+fettuccine pasta,italian seasoning,0.4831252098083496,,,,,,,,REVIEW,PENDING,candidates,
+fettuccine pasta,spaghetti pasta,0.7319158315658569,0.2680842280387878,0.3333333333333333,0.5,0.6451612903225806,1.0,0.0625,,REVIEW,PENDING,automatic;review,Requires further verification
+flax meal,flax seed powder,0.7405869960784912,,,,,,,,REVIEW,PENDING,candidates,
+flax seeds,sesame seeds (til seeds),0.6096937656402588,,,,,,,,REVIEW,PENDING,candidates,
+fresh rose petals,lavender flowers,0.6392773985862732,,,,,,,,REVIEW,PENDING,candidates,
+ginger,red capsicum,0.5407888293266296,,,,,,,,REVIEW,PENDING,candidates,
+gongura,sorrel leaves,0.1795898079872131,,,,,,,,REVIEW,PENDING,candidates,
+grape juice,white wine vinegar,0.5294687151908875,,,,,,,,REVIEW,PENDING,candidates,
+green amaranth leaves,green grams,0.4465249478816986,,,,,,,,REVIEW,PENDING,candidates,
+green channa sprouts,green chilli,0.5142288208007812,,,,,,,,REVIEW,PENDING,candidates,
+green channa sprouts,mor milagai (dried green chillies),0.4902732968330383,,,,,,,,REVIEW,PENDING,candidates,
+green chawli beans (yard long beans/karamani/barbati),lima beans,0.5574465990066528,,,,,,,,REVIEW,PENDING,candidates,
+green chilli,green romaine lettuce,0.5837989449501038,,,,,,,,REVIEW,PENDING,candidates,
+green moong dal,split,0.2005881369113922,,,,,,,,REVIEW,PENDING,candidates,
+green romaine lettuce,spring onion (bulb & greens),0.445699393749237,,,,,,,,REVIEW,PENDING,candidates,
+guava,rasgulla,0.5609776973724365,,,,,,,,REVIEW,PENDING,candidates,
+guava,rice rava,0.4968553185462951,,,,,,,,REVIEW,PENDING,candidates,
+holy basil,tulsi,0.1660516411066055,,,,,,,,REVIEW,PENDING,candidates,
+horse gram dal,kollu/ kulith,0.1626754850149154,,,,,,,,REVIEW,PENDING,candidates,
+horse gram dal (kollu/ kulith),kabuli chana (white chickpeas),0.4614032506942749,,,,,,,,REVIEW,PENDING,candidates,
+hung curd (greek yogurt),"milk cream, cow",0.4357897043228149,,,,,,,,REVIEW,PENDING,candidates,
+icing sugar,lion dates syrup,0.3696062564849853,,,,,,,,REVIEW,PENDING,candidates,
+icing sugar,palm sugar,0.5171302556991577,,,,,,,,REVIEW,PENDING,candidates,
+instant coffee powder,rasam powder,0.5614703893661499,,,,,,,,REVIEW,PENDING,candidates,
+jackfruit raw,kathal,0.1569610238075256,,,,,,,,REVIEW,PENDING,candidates,
+jackfruit ripe,kathal,0.1036542356014251,,,,,,,,REVIEW,PENDING,candidates,
+jackfruit seeds,kathal,0.0579072833061218,,,,,,,,REVIEW,PENDING,candidates,
+jackfruit seeds (kathal),melon seeds,0.5117108821868896,,,,,,,,REVIEW,PENDING,candidates,
+jaggery,whiskey,0.4297733902931213,,,,,,,,REVIEW,PENDING,candidates,
+jowar flour,sorghum,0.3972273170948028,,,,,,,,REVIEW,PENDING,candidates,
+kalamansi (philippine small lime),natal plum (karonde),0.4480382204055786,,,,,,,,REVIEW,PENDING,candidates,
+kalonji,onion nigella seeds,0.1675048619508743,,,,,,,,REVIEW,PENDING,candidates,
+khoya,mawa,0.4902353882789612,,,,,,,,REVIEW,PENDING,candidates,
+kidney beans,vaal beans,0.6225267648696899,,,,,,,,REVIEW,PENDING,candidates,
+kohl rabi,yellow squash,0.4405362606048584,,,,,,,,REVIEW,PENDING,candidates,
+kokum (malabar tamarind),काले,0.4741761386394501,0.5258238613605499,0.0,0.0,0.0,20.0,0.8333333333333334,,REVIEW,PENDING,automatic;review,Requires further verification
+kolhapuri masala,thandai masala,0.6191353797912598,,,,,,,,REVIEW,PENDING,candidates,
+lamb ribs,meat masala,0.4848807752132416,,,,,,,,REVIEW,PENDING,candidates,
+lasagna sheets,seaweed sheets,0.5700975656509399,,,,,,,,REVIEW,PENDING,candidates,
+lemon juice,lemongrass,0.6607246994972229,0.3392753005027771,0.0,0.0,0.4761904761904761,1.0,0.0909090909090909,,REVIEW,PENDING,automatic;review,Requires further verification
+little millet,sama flour,0.226660668849945,,,,,,,,REVIEW,PENDING,candidates,
+long pepper,red capsicum,0.5925001502037048,,,,,,,,REVIEW,PENDING,candidates,
+maize dalia (broken corn meal),matzo meal,0.4989876747131347,,,,,,,,REVIEW,PENDING,candidates,
+maize flou,tofu,0.3799804449081421,,,,,,,,REVIEW,PENDING,candidates,
+malwani masala,tikka masala,0.6331280469894409,,,,,,,,REVIEW,PENDING,candidates,
+manathakkali keerai,phulka,0.4815645813941955,,,,,,,,REVIEW,PENDING,candidates,
+mangalorean cucumber,veeba carrot cucumber sandwich spread,0.5168049335479736,,,,,,,,REVIEW,PENDING,candidates,
+mango (ripe),mango ginger (manga inji),0.5730124115943909,,,,,,,,REVIEW,PENDING,candidates,
+matki,moth sprouts,0.0280672386288642,,,,,,,,REVIEW,PENDING,candidates,
+meringues,prawns,0.3585771322250366,,,,,,,,REVIEW,PENDING,candidates,
+mexican seasoning,serrano pepper,0.3590794801712036,,,,,,,,REVIEW,PENDING,candidates,
+milk powder,sour milk,0.6489312648773193,0.3510688543319702,0.3333333333333333,0.5,0.4,2.0,0.1818181818181818,,REVIEW,PENDING,automatic;review,Requires further verification
+mint leaves,pudina,0.1737506687641143,,,,,,,,REVIEW,PENDING,candidates,
+mint powder,pudina,0.1661429703235626,,,,,,,,REVIEW,PENDING,candidates,
+mixed berries,mixed nuts,0.6510219573974609,,,,,,,,REVIEW,PENDING,candidates,
+mixed dry fruits,mixed lentils,0.4194490909576416,,,,,,,,REVIEW,PENDING,candidates,
+mixed fruits,whole almonds (badam),0.4919724464416504,,,,,,,,REVIEW,PENDING,candidates,
+mixed grains,sorghum flour,0.5624200701713562,,,,,,,,REVIEW,PENDING,candidates,
+mixed greens,mixed sprouts,0.5853586792945862,,,,,,,,REVIEW,PENDING,candidates,
+moongphali,raw peanuts,0.0764902755618095,,,,,,,,REVIEW,PENDING,candidates,
+multigrain digestive oat biscuits,oats,0.5481231212615967,,,,,,,,REVIEW,PENDING,candidates,
+naan,केला,0.466741681098938,,,,,,,,REVIEW,PENDING,candidates,
+namak para,pav bhaji masala,0.4793485999107361,,,,,,,,REVIEW,PENDING,candidates,
+natal plum (karonde),night jasmine (flower stem),0.4298691153526306,,,,,,,,REVIEW,PENDING,candidates,
+neem leaves,red amaranth leaves,0.3992029726505279,,,,,,,,REVIEW,PENDING,candidates,
+nile perch fish,pohala fish,0.5739936828613281,,,,,,,,REVIEW,PENDING,candidates,
+nutmeg powder,wheat grass powder,0.6059795618057251,,,,,,,,REVIEW,PENDING,candidates,
+orange zest,rind,0.2867848873138428,,,,,,,,REVIEW,PENDING,candidates,
+pabda fish,pav buns,0.3861361145973205,,,,,,,,REVIEW,PENDING,candidates,
+papad,urad dal papad,0.6726705431938171,,,,,,,,REVIEW,PENDING,candidates,
+phyllo dough,rice flour,0.4418448209762573,,,,,,,,REVIEW,PENDING,candidates,
+pink food colour,yellow food colour,0.6846668720245361,0.3153330683708191,0.5,0.6666666666666666,0.7058823529411765,2.0,0.1111111111111111,,0,PENDING,automatic;review,Different ingredient modifiers
+pork belly,soft taco shells,0.3828489780426025,,,,,,,,REVIEW,PENDING,candidates,
+pudulangai,snake gourd,0.2773853540420532,,,,,,,,REVIEW,PENDING,candidates,
+purple basil,tulsi (holy basil),0.5036680698394775,,,,,,,,REVIEW,PENDING,candidates,
+rasam powder,sesame powder,0.6227624416351318,,,,,,,,REVIEW,PENDING,candidates,
+raw peanuts (moongphali),raw rice,0.5222964286804199,,,,,,,,REVIEW,PENDING,candidates,
+rose petals,rose syrup,0.6325688362121582,0.3674311637878418,0.3333333333333333,0.5,0.5714285714285714,1.0,0.0909090909090909,,REVIEW,PENDING,automatic;review,Requires further verification
+sabudana,tapioca pearls,0.2443214058876037,,,,,,,,REVIEW,PENDING,candidates,
+sesame seeds (til seeds),watermelon seeds,0.5598811507225037,,,,,,,,REVIEW,PENDING,candidates,
+seviyan,thin semiya,0.3370340168476105,,,,,,,,REVIEW,PENDING,candidates,
+za'atar,अंडे,0.4345624446868896,0.565437525510788,0.0,0.0,0.0,3.0,0.4285714285714285,,REVIEW,PENDING,automatic;review,Requires further verification
+अंजीर,छोटे प्याज़,0.7659236788749695,,,,,,,,REVIEW,PENDING,candidates,
+अंजीर,तेजपत्ता,0.752811074256897,,,,,,,,REVIEW,PENDING,candidates,
+अचार,चिचिंडा,0.782592236995697,,,,,,,,REVIEW,PENDING,candidates,
+अनार के दाने,अमरांथ के पत्ते,0.7792891263961792,0.2207108736038208,0.1111111111111111,0.2,0.5185185185185185,3.0,0.2,,REVIEW,PENDING,automatic;review,Requires further verification
+अामला,बादाम,0.7910916805267334,,,,,,,,REVIEW,PENDING,candidates,
+आमला,आलू मसाला,0.9063440561294556,0.0936558246612548,0.0,0.0,0.6153846153846154,5.0,0.5555555555555556,,REVIEW,PENDING,automatic;review,Requires further verification
+इडली,मूंगफली,1.0,0.0,0.0,0.0,0.3636363636363636,3.0,0.4285714285714285,,REVIEW,PENDING,automatic;review,Requires further verification
+इडली,स्ट्रॉबेरी,1.0000001192092896,,,,,,,,REVIEW,PENDING,candidates,
+इडली चावल,चावल का रवा,0.8644626140594482,,,,,,,,REVIEW,PENDING,candidates,
+इलाइची पाउडर,ब्राउन राइस,0.7604689598083496,,,,,,,,REVIEW,PENDING,candidates,
+इलाईची,स्प्राइट,1.0000001192092896,,,,,,,,REVIEW,PENDING,candidates,
+इलाईची पाउडर,पापड,0.7817550897598267,,,,,,,,REVIEW,PENDING,candidates,
+ऑरेंज ज़ेस्ट,निम्बू जेस्ट,0.7779548764228821,,,,,,,,REVIEW,PENDING,candidates,
+ऑल पर्पस आटा,मैदा,0.5395870208740234,,,,,,,,REVIEW,PENDING,candidates,
+ओलिव का तेल,छोले मसाला,0.8230413198471069,,,,,,,,REVIEW,PENDING,candidates,
+ओलिव का तेल,सिंघाड़े का आटा,0.8327656388282776,0.1672343015670776,0.1111111111111111,0.2,0.3846153846153846,4.0,0.2666666666666666,,REVIEW,PENDING,automatic;review,Requires further verification
+करी पत्ते,क्रीम,0.7940673232078552,0.2059325575828552,0.0,0.0,0.4285714285714285,4.0,0.4444444444444444,,REVIEW,PENDING,automatic;review,Requires further verification
+कलोंजी के बीज,हल्दी (ताज़ी),0.767094075679779,,,,,,,,REVIEW,PENDING,candidates,
+कश्मीरी ग्रीन टी,टिन्डोरा,0.7626863718032837,,,,,,,,REVIEW,PENDING,candidates,
+कश्मीरी मसाला पाउडर,काली मिर्च पाउडर,0.8923311233520508,0.1076688170433044,0.5555555555555556,0.7142857142857143,0.5714285714285714,3.0,0.1578947368421052,,REVIEW,PENDING,automatic;review,Requires further verification
+काबुली चना या छोला,तरबूज के बीज,0.7837534546852112,,,,,,,,REVIEW,PENDING,candidates,
+काला जीरा,काले बीन्स,0.8456610441207886,,,,,,,,REVIEW,PENDING,candidates,
+काली उरद दाल,स्प्लिट,0.5694085359573364,,,,,,,,REVIEW,PENDING,candidates,
+कोल्हापुरी खन्दा लहसुन मसाला,खिचड़ी,0.794217050075531,,,,,,,,REVIEW,PENDING,candidates,
+गरम मसाला,लेमन ग्रास,0.8420789241790771,,,,,,,,REVIEW,PENDING,candidates,
+गुलकंद,चकुंदर,0.7498491406440735,,,,,,,,REVIEW,PENDING,candidates,
+चक्र फूल,चेरी,0.7804344892501831,0.2195655107498169,0.2,0.5,0.3333333333333333,4.0,0.5,,REVIEW,PENDING,automatic;review,Requires further verification
+चक्र फूल,ड्रमस्टिक,0.7051502466201782,,,,,,,,REVIEW,PENDING,candidates,
+चना का पानी,हरा चना,0.9036850929260254,,,,,,,,REVIEW,PENDING,candidates,
+चना मसाला पाउडर,चाउ चाउ,0.8099377155303955,,,,,,,,REVIEW,PENDING,candidates,
+चना मसाला पाउडर,तिल का पाउडर,0.8701980113983154,,,,,,,,REVIEW,PENDING,candidates,
+चना मसाला पाउडर,हरा चना,0.8645879030227661,,,,,,,,REVIEW,PENDING,candidates,
+चाट मसाला पाउडर,सांबर पाउडर,0.8254818916320801,,,,,,,,REVIEW,PENDING,candidates,
+चारकोल,चेरी,0.8436199426651001,0.1563801765441894,0.25,0.5,0.4,2.0,0.3333333333333333,,REVIEW,PENDING,automatic;review,Requires further verification
+चिकन ब्रैस्ट,ड्रमस्टिक,0.791257917881012,0.2087421417236328,0.1111111111111111,0.25,0.4761904761904761,3.0,0.25,,REVIEW,PENDING,automatic;review,Requires further verification
+चिचिंदा,तंदूरी चिकन मसाला,0.8094127178192139,0.1905873417854309,0.2857142857142857,1.0,0.25,10.0,0.5882352941176471,,REVIEW,PENDING,automatic;review,Requires further verification
+जावित्री,शाही जीरा,0.7725872993469238,0.2274125218391418,0.3333333333333333,0.5,0.2352941176470588,1.0,0.1111111111111111,,REVIEW,PENDING,automatic;review,Requires further verification
+जिंजर तेरियाकि सॉस,शेजवान सॉस,0.7087886333465576,,,,,,,,REVIEW,PENDING,candidates,
+जीरा,तुलसी,0.7983420491218567,,,,,,,,REVIEW,PENDING,candidates,
+तंदूरी चिकन मसाला,थाई स्वीट चिल्ली सॉस,0.8357703685760498,,,,,,,,REVIEW,PENDING,candidates,
+तंदूरी मसाला,मैदा (ऑल पर्पस आटा),0.8008214831352234,,,,,,,,REVIEW,PENDING,candidates,
+तेज पत्ता,रतन जोट,0.7380800247192383,,,,,,,,REVIEW,PENDING,candidates,
+थाई स्वीट चिल्ली सॉस,स्वीट कॉर्न,0.8532358407974243,,,,,,,,REVIEW,PENDING,candidates,
+दही,वेगन दही स्टार्टर,0.7158441543579102,,,,,,,,REVIEW,PENDING,candidates,
+धनिया के बीज,धनिये के बीज,0.9909048676490784,,,,,,,,REVIEW,PENDING,candidates,
+नटमेग पाउडर,मिर्ची पाउडर,0.8529696464538574,0.1470304727554321,0.2857142857142857,0.5,0.6086956521739131,1.0,0.0833333333333333,,REVIEW,PENDING,automatic;review,Requires further verification
+निम्बू जेस्ट,मिक्स्ड सब्जिआ,0.7649796605110168,,,,,,,,REVIEW,PENDING,candidates,
+पीनट बटर,बीटरूट,0.9504780769348145,0.0495219230651855,0.0,0.0,0.4285714285714285,2.0,0.25,,REVIEW,PENDING,automatic;review,Requires further verification
+पुरे काली मिर्च मकई,हरी शिमलामिर्च,0.8664811849594116,0.1335186958312988,0.3,0.5,0.4848484848484848,5.0,0.2631578947368421,,REVIEW,PENDING,automatic;review,Requires further verification
+पूरी काली मिर्च,शिमला मिर्च (हरी),0.8672283887863159,,,,,,,,REVIEW,PENDING,candidates,
+बेबी कॉर्न,ब्राउन राइस,0.8001278638839722,0.1998718976974487,0.3333333333333333,0.5,0.2857142857142857,1.0,0.0909090909090909,,REVIEW,PENDING,automatic;review,Requires further verification
+बेसिल पाउडर,लाल मिर्च पाउडर,0.8724250197410583,,,,,,,,REVIEW,PENDING,candidates,
+ब्राहमी के पत्ते,मेथी के बीज,0.7414424419403076,,,,,,,,REVIEW,PENDING,candidates,
+भिन्डी (ओखरा),मस्टर्ड सॉस,0.7226500511169434,,,,,,,,REVIEW,PENDING,candidates,
+मसूर दाल,स्प्लिट,0.6420230269432068,,,,,,,,REVIEW,PENDING,candidates,
+मिक्स्ड हर्ब्स,हरा बीन्स,0.7825664281845093,,,,,,,,REVIEW,PENDING,candidates,
+रतालू,रेड चिल्ली फलैक्स,0.832791268825531,,,,,,,,REVIEW,PENDING,candidates,
+रसम पाउडर,रोसमैरी,0.8223510980606079,0.1776489615440368,0.0,0.0,0.5,2.0,0.2222222222222222,,REVIEW,PENDING,automatic;review,Requires further verification
+राइ,स्प्राइट,1.0,0.0,0.2,0.5,0.5454545454545454,5.0,0.625,,REVIEW,PENDING,automatic;review,Requires further verification
+राबोडी,रेड चिल्ली फलैक्स,0.8337162733078003,0.166283905506134,0.25,0.6666666666666666,0.2608695652173913,11.0,0.6470588235294118,,REVIEW,PENDING,automatic;review,Requires further verification
+रेड चिल्ली सॉस,रोस्टेड चना दाल,0.9351969957351683,0.0648028850555419,0.5,0.8,0.4137931034482758,1.0,0.0666666666666666,,1,PENDING,automatic;review,High semantic similarity and token containment
+संतरा,सेव,0.730160117149353,0.269839882850647,0.3333333333333333,0.5,0.25,2.0,0.4,,REVIEW,PENDING,automatic;review,Requires further verification
+सब्जिआ,सांबर पाउडर,0.751723051071167,,,,,,,,REVIEW,PENDING,candidates,
+सरसो का तेल,सोयाा सॉस,0.7876874208450317,0.2123125791549682,0.0,0.0,0.4,2.0,0.1818181818181818,,REVIEW,PENDING,automatic;review,Requires further verification
+सरसों का तेल,सोया सॉस,0.7894245386123657,,,,,,,,REVIEW,PENDING,candidates,
+सुरन,स्टोन फ्लॉवर,0.7291049361228943,,,,,,,,REVIEW,PENDING,candidates,
+स्टोन फ्लॉवर,सफ़ेद मटर (सूखा),0.7638475894927979,,,,,,,,REVIEW,PENDING,candidates,
+almond essence (badam essence),vanilla essence,0.6533217430114746,0.3466781377792358,0.25,0.5,0.4444444444444444,15.0,0.5,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+aubergine,eggplant,0.4066427946090698,0.5933572053909302,0.0,0.0,0.2352941176470588,1.0,0.1111111111111111,1,REVIEW,REVIEWED,automatic;features;manual;review,Trusted manual label
+bananas,raw banana,0.7798436284065247,0.2201565504074096,0.0,0.0,0.7058823529411765,3.0,0.3,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+barbeque masala,kebab masala,0.66835618019104,0.3316438198089599,0.3333333333333333,0.5,0.7407407407407407,3.0,0.2,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+barley flour,jowar flour (sorghum),0.715178370475769,0.2848215103149414,0.25,0.5,0.4848484848484848,9.0,0.4285714285714285,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+basil seeds (sabja),mustard seeds (rai/ kadugu),0.5677826404571533,0.4322173595428467,0.1666666666666666,0.3333333333333333,0.5217391304347826,8.0,0.2962962962962963,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+basmati rice,white-rice,0.7027778029441833,0.2972221374511719,0.3333333333333333,0.5,0.4545454545454545,2.0,0.1666666666666666,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+bathua leaves,sukumawiki leaves,0.4423366785049438,0.5576633214950562,0.3333333333333333,0.5,0.5333333333333333,4.0,0.2352941176470588,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+beef,chicken,0.605204701423645,0.394795298576355,0.0,0.0,0.1818181818181818,3.0,0.4285714285714285,0,REVIEW,REVIEWED,automatic;features;manual;review,Trusted manual label
+beer,bourbon,0.5820446610450745,0.4179552793502807,0.0,0.0,0.3636363636363636,3.0,0.4285714285714285,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+beer,tequila,0.5559143424034119,0.4440856575965881,0.0,0.0,0.1818181818181818,3.0,0.4285714285714285,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+bhaja masala,rooh afza sharbat,0.4717967510223388,0.5282032787799835,0.0,0.0,0.2068965517241379,5.0,0.2941176470588235,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+bhang paste,बोटी,0.3899179697036743,0.6100820600986481,0.0,0.0,0.0,7.0,0.6363636363636364,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+bicarbonate of soda,charcoal,0.3316182792186737,0.6683816909790039,0.0,0.0,0.3703703703703703,11.0,0.5789473684210527,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+black eyed peas,green peas,0.8647147417068481,0.1352852582931518,0.25,0.5,0.56,5.0,0.3333333333333333,0,0,REVIEWED,automatic;features;manual;review,Trusted manual label
+black eyed peas (lobia),cow peas,0.7198750972747803,0.2801249027252197,0.2,0.5,0.3870967741935484,15.0,0.6521739130434783,1,0,REVIEWED,automatic;features;manual;review,Trusted manual label
+black pepper,yellow bell pepper (capsicum),0.6827207207679749,0.3172791004180908,0.2,0.5,0.4390243902439024,17.0,0.5862068965517241,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+black pepper powder,instant coffee powder,0.6164579391479492,0.383542001247406,0.2,0.3333333333333333,0.55,2.0,0.0952380952380952,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+black rice,black sesame seeds,0.6386058330535889,0.3613941669464111,0.25,0.5,0.5,8.0,0.4444444444444444,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+botis,sprouted ragi,0.3646708130836487,0.6353291869163513,0.0,0.0,0.3333333333333333,8.0,0.6153846153846154,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+brinjals,long green brinjal,0.7120735049247742,0.287926435470581,0.0,0.0,0.5384615384615384,10.0,0.5555555555555556,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+brown rice,dosa rice,0.6663175821304321,0.3336825370788574,0.3333333333333333,0.5,0.631578947368421,1.0,0.1,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+brown rice,white rice,0.8547571897506714,0.1452428102493286,0.3333333333333333,0.5,0.6,0.0,0.0,0,0,REVIEWED,automatic;features;manual;review,Trusted manual label
+brown sugar (demerara sugar),sugar,0.6550713777542114,0.3449286818504333,0.3333333333333333,1.0,0.303030303030303,23.0,0.8214285714285714,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+cabbage,purple cabbage,0.8599262237548828,0.1400737166404724,0.5,1.0,0.6666666666666666,7.0,0.5,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+carrot,carrots (gajjar),0.7176171541213989,0.2823828458786011,0.0,0.0,0.5454545454545454,10.0,0.625,1,REVIEW,REVIEWED,automatic;features;manual;review,Trusted manual label
+carrot (gajjar),khurchan (leftover from homemade ghee),0.4755145311355591,0.5244852900505066,0.0,0.0,0.3018867924528302,23.0,0.6052631578947368,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+cashew nuts,walnuts,0.6191449165344238,0.3808551430702209,0.0,0.0,0.5555555555555556,4.0,0.3636363636363636,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+caster sugar,palm sugar,0.5743018388748169,0.4256982803344726,0.3333333333333333,0.5,0.6363636363636364,2.0,0.1666666666666666,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+cayenne pepper,orange bell pepper (capsicum),0.6164398789405823,0.383560299873352,0.2,0.5,0.4651162790697674,15.0,0.5172413793103449,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+cayenne pepper,yellow bell pepper (capsicum),0.6043833494186401,0.3956165313720703,0.2,0.5,0.4651162790697674,15.0,0.5172413793103449,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+chana jor garam,hara chana,0.6042191386222839,0.3957809805870056,0.25,0.5,0.4,5.0,0.3333333333333333,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+chana jor garam,pav bhaji masala,0.5108602046966553,0.4891398549079895,0.0,0.0,0.3225806451612903,1.0,0.0625,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+chayote,soya chaap,0.5733156800270081,0.4266843795776367,0.0,0.0,0.3529411764705882,3.0,0.3,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+cheese slices,processed cheese,0.613960862159729,0.386039137840271,0.3333333333333333,0.5,0.4137931034482758,3.0,0.1875,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+chick peas,garden peas,0.8899033069610596,0.1100966930389404,0.3333333333333333,0.5,0.4761904761904761,1.0,0.0909090909090909,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+chilled butter,chilled water,0.5946328639984131,0.4053670167922973,0.3333333333333333,0.5,0.8148148148148148,1.0,0.0714285714285714,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+chilli pepper,poblano chillies,0.5994229912757874,0.4005770683288574,0.0,0.0,0.4827586206896552,3.0,0.1875,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+chocolate cake,chocolate ice cream,0.6810736656188965,0.3189263343811035,0.25,0.5,0.7272727272727273,5.0,0.2631578947368421,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+ciabatta bread,mini pita breads,0.5183842182159424,0.4816159009933471,0.0,0.0,0.6,2.0,0.125,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+cluster fig (gular),gilka (sponge/silk squash),0.3679934442043304,0.6320065259933472,0.0,0.0,0.3111111111111111,7.0,0.2692307692307692,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+coca cola,milk chocolate,0.4866149127483368,0.5133851170539856,0.0,0.0,0.5217391304347826,5.0,0.3571428571428571,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+coconut cream,dry coconut (kopra),0.6441335678100586,0.3558664321899414,0.25,0.5,0.625,6.0,0.3157894736842105,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+coconut milk,milk,0.758592963218689,0.241407036781311,0.5,1.0,0.5,8.0,0.6666666666666666,0,0,REVIEWED,automatic;features;manual;review,Trusted manual label
+coffee decoction,filter coffee powder,0.6060937643051147,0.39390629529953,0.25,0.5,0.5,4.0,0.2,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+coriander,coriander leaves,0.8567456007003784,0.143254280090332,0.5,1.0,0.72,7.0,0.4375,0,1,REVIEWED,automatic;review,High semantic similarity and token containment
+cow blood,cow cream,0.5775197744369507,0.4224803447723388,0.3333333333333333,0.5,0.4444444444444444,0.0,0.0,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+cow milk,milk,0.8954062461853027,0.1045937538146972,0.5,1.0,0.6666666666666666,4.0,0.5,1,1,REVIEWED,automatic;features;manual;review,Trusted manual label
+cranberries,dried blackberries,0.6278382539749146,0.3721617460250854,0.0,0.0,0.5517241379310345,7.0,0.3888888888888889,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+cranberries,fried bread cubes (croutons),0.4316896200180053,0.5683103203773499,0.0,0.0,0.2051282051282051,17.0,0.6071428571428571,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+cumin,nutmeg,0.3831158578395843,0.616884171962738,0.0,0.0,0.3636363636363636,1.0,0.1666666666666666,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+curry leaves,tea leaves,0.5180744528770447,0.4819256663322449,0.3333333333333333,0.5,0.6363636363636364,2.0,0.1666666666666666,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+dark rum,strawberry vodka,0.5549776554107666,0.4450222849845886,0.0,0.0,0.1666666666666666,8.0,0.5,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+dry dates powder (kharik pud),hazelnut meal (powder),0.4831287860870361,0.5168712437152863,0.1428571428571428,0.3333333333333333,0.392156862745098,7.0,0.2413793103448276,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+dry mix herbs,mixed dry fruits,0.5783822536468506,0.4216178655624389,0.2,0.3333333333333333,0.4137931034482758,3.0,0.1875,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+dry red chilli,thai red chilli (birds eye chilli),0.639741063117981,0.360258936882019,0.3333333333333333,0.6666666666666666,0.4583333333333333,20.0,0.5882352941176471,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+edible camphor (pacha karpooram),roasted gram dal (pottukadalai),0.5119791030883789,0.4880209565162658,0.0,0.0,0.3809523809523809,1.0,0.03125,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+elephant yam (suran/senai/ratalu),kaddu (parangikai/ pumpkin),0.524977445602417,0.475022554397583,0.0,0.0,0.3666666666666666,6.0,0.1818181818181818,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+emami rice bran oil,fried rice,0.5720970630645752,0.42790287733078,0.2,0.5,0.4137931034482758,9.0,0.4736842105263157,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+enos fruit salt,fresh fruits,0.567273736000061,0.4327262043952942,0.0,0.0,0.6666666666666666,3.0,0.2,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+fenugreek leaves,pumpkin leaves,0.5432002544403076,0.4567997455596924,0.3333333333333333,0.5,0.5333333333333333,2.0,0.125,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+french bread,hot dog bread,0.6510951519012451,0.3489048480987549,0.25,0.5,0.56,1.0,0.0769230769230769,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+fresh red chilli,red chilli flakes,0.7961512804031372,0.2038489580154419,0.5,0.6666666666666666,0.6060606060606061,1.0,0.0588235294117647,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+garden peas,sugar snap peas,0.7587462663650513,0.2412536740303039,0.25,0.5,0.6923076923076923,4.0,0.2666666666666666,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+garlic butter,herb butter,0.7355424165725708,0.2644575834274292,0.3333333333333333,0.5,0.6666666666666666,2.0,0.1538461538461538,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+goat meat,minced beef,0.5288196802139282,0.4711804389953613,0.0,0.0,0.2,2.0,0.1818181818181818,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+green beans,green chawli beans (yard long beans/karamani/barbati),0.6471061706542969,0.3528937101364136,0.2857142857142857,1.0,0.34375,42.0,0.7924528301886793,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+green olives,mixed greens,0.6028286218643188,0.3971715569496155,0.0,0.0,0.5,0.0,0.0,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+green peas (matar),pigeon peas,0.6923415064811707,0.3076586723327636,0.25,0.5,0.5517241379310345,7.0,0.3888888888888889,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+ground beef,minced beef,0.6637594699859619,0.3362405300140381,0.3333333333333333,0.5,0.6363636363636364,0.0,0.0,1,0,REVIEWED,automatic;features;manual;review,Trusted manual label
+gruyere cheese,mozzarella cheese,0.6460164785385132,0.3539834022521972,0.3333333333333333,0.5,0.5806451612903226,3.0,0.1764705882352941,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+half and half,thin semiya (seviyan),0.3324789702892303,0.6675210297107697,0.0,0.0,0.2941176470588235,8.0,0.3809523809523809,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+half and half,whole egg,0.3948168754577636,0.6051831841468811,0.0,0.0,0.2727272727272727,4.0,0.3076923076923077,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+hard taco shells,taco seasoning,0.5024216175079346,0.4975783824920654,0.25,0.5,0.5333333333333333,2.0,0.125,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+italian bread,mini pita breads,0.5858842730522156,0.4141157865524292,0.0,0.0,0.6206896551724138,3.0,0.1875,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+jackfruit ripe (kathal),palm fruit,0.4669521152973175,0.5330478549003601,0.0,0.0,0.3636363636363636,13.0,0.5652173913043478,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+kaddu (parangikai/ pumpkin),pumpkin leaves,0.5175401568412781,0.4824597239494324,0.25,0.5,0.3414634146341463,13.0,0.4814814814814814,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+kalamansi (philippine small lime),mangai vathal (dried mango),0.5118916630744934,0.4881085157394409,0.0,0.0,0.4,6.0,0.1818181818181818,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+kasuri methi (dried fenugreek leaves),knol khol leaves (ganth gobi leaves),0.4938604235649109,0.506139487028122,0.1111111111111111,0.2,0.410958904109589,1.0,0.027027027027027,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+knol khol leaves (ganth gobi leaves),thonnai (dried leaves),0.5012662410736084,0.4987338185310364,0.1428571428571428,0.3333333333333333,0.4827586206896552,14.0,0.3888888888888889,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+linguine pasta,pasta fusilli,0.6178387999534607,0.3821610808372497,0.3333333333333333,0.5,0.3703703703703703,1.0,0.0714285714285714,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+margarine (reduced calorie),wheat berries/ whole wheat,0.3538742661476135,0.6461257934570312,0.0,0.0,0.1886792452830188,1.0,0.037037037037037,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+masauras,meat masala,0.5819560885429382,0.4180437326431274,0.0,0.0,0.5263157894736842,3.0,0.2727272727272727,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+mint,mint rice,0.6758980751037598,0.324101984500885,0.5,1.0,0.6153846153846154,5.0,0.5555555555555556,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+mushrooms,pistachios,0.4992967247962951,0.5007034540176392,0.0,0.0,0.4210526315789473,1.0,0.1,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+nendra pazham banana (ripe),raw banana,0.6692763566970825,0.3307236433029175,0.2,0.5,0.4864864864864865,17.0,0.6296296296296297,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+pav bhaji masala,काले,0.5882496237754822,0.4117504358291626,0.0,0.0,0.0,12.0,0.75,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+potato,sweet potato,0.8073935508728027,0.1926064491271972,0.5,1.0,0.6666666666666666,6.0,0.5,0,0,REVIEWED,automatic;features;manual;review,Trusted manual label
+rabdi,rabodi (dried corn papad),0.5205304622650146,0.4794695377349853,0.0,0.0,0.3333333333333333,20.0,0.8,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+raisins,walnuts,0.5648931264877319,0.435106873512268,0.0,0.0,0.2857142857142857,0.0,0.0,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+rasna,summac,0.4011614918708801,0.5988385677337646,0.0,0.0,0.1818181818181818,1.0,0.1666666666666666,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+red sorghum flour,sorghum,0.7272533178329468,0.2727466821670532,0.3333333333333333,1.0,0.5833333333333334,10.0,0.5882352941176471,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+sauerkraut,singhade (water chestnut),0.4721535444259643,0.5278464555740356,0.0,0.0,0.3428571428571428,15.0,0.6,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+singoda flour (water chestnut),tapioca flour (sago),0.6159101724624634,0.3840897679328918,0.1666666666666666,0.3333333333333333,0.52,10.0,0.3333333333333333,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+slider bun,soup buns,0.5729280710220337,0.4270718693733215,0.0,0.0,0.5263157894736842,1.0,0.1,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+soy flour,wheat flour,0.7703185081481934,0.2296815514564514,0.3333333333333333,0.5,0.6,2.0,0.1818181818181818,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+soya sauce,veeba sweet chilli sauce,0.6517961621284485,0.3482037782669067,0.2,0.5,0.4117647058823529,14.0,0.5833333333333334,0,0,REVIEWED,automatic;review,Different ingredient modifiers
+tandoori marinade,teriyaki sauce,0.4941816926002502,0.5058183073997498,0.0,0.0,0.3870967741935484,3.0,0.1764705882352941,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+tomato ketchup,tomato paste,0.5579981803894043,0.4420019388198852,0.3333333333333333,0.5,0.6153846153846154,2.0,0.1428571428571428,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+whole chicken,whole egg,0.6824353933334351,0.3175644874572754,0.3333333333333333,0.5,0.6363636363636364,4.0,0.3076923076923077,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+अचारी मसाला,पूरी काली मिर्च,0.8750036358833313,0.1249961853027343,0.25,0.5,0.3846153846153846,4.0,0.2666666666666666,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+अदरक पाउडर,अनारदाना पाउडर,0.914270043373108,0.0857298374176025,0.3333333333333333,0.6666666666666666,0.6666666666666666,4.0,0.2857142857142857,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+अदरक पाउडर,कस्टर्ड पाउडर,0.8719106912612915,0.1280893087387085,0.3333333333333333,0.6666666666666666,0.6086956521739131,3.0,0.2307692307692307,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+अनारदाना,अमरुद,0.7903363108634949,0.2096637487411499,0.0,0.0,0.4615384615384615,3.0,0.375,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+अवरेकालू,एप्पल साइडर सिरका,0.8203489780426025,0.1796509027481079,0.0,0.0,0.24,9.0,0.5294117647058824,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+इलाइची,ऑरेगानो,1.000000238418579,-1.1920928955078125e-07,0.0,0.0,0.1538461538461538,1.0,0.1428571428571428,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+इलाइची,सेवई,1.0,0.0,0.0,0.0,0.0,2.0,0.3333333333333333,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+इलाईची,घुड़,1.0,0.0,0.0,0.0,0.0,3.0,0.5,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+एवोकाडो,कोकोआ पाउडर,0.7865959405899048,0.2134041786193847,0.1666666666666666,0.3333333333333333,0.4444444444444444,4.0,0.3636363636363636,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+काला जीरा,नारीयल पानी,0.8500455617904663,0.1499544382095337,0.1428571428571428,0.25,0.4,2.0,0.1818181818181818,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+काले बीन्स,केला,0.855604350566864,0.1443957686424255,0.4,1.0,0.2857142857142857,6.0,0.6,0,1,REVIEWED,automatic;review,High semantic similarity and token containment
+ग्रीन चिल्ली सॉस,थाई स्वीट चिल्ली सॉस,0.845414400100708,0.154585599899292,0.3,0.5,0.7222222222222222,4.0,0.2,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+छेडार चीज़,छोटे प्याज,0.8249874711036682,0.1750123500823974,0.1111111111111111,0.2,0.3157894736842105,1.0,0.1,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+जायफल पाउडर,सौंफ पाउडर,1.0,0.0,0.3333333333333333,0.5,0.6666666666666666,1.0,0.0909090909090909,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+टिंडा,टिल का तेल,0.8384437561035156,0.1615564227104187,0.2,0.5,0.4,5.0,0.5,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+ठंडा पानी,पुदीना,0.8708206415176392,0.1291792392730713,0.4,0.6666666666666666,0.1333333333333333,3.0,0.3333333333333333,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+नारियल,नोल नोल,0.8184515237808228,0.1815484762191772,0.25,0.5,0.3076923076923077,1.0,0.1428571428571428,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+फ्लैक्स सीड्स पाउडर,मिक्स्ड सब्जिआ,0.7657198905944824,0.234279990196228,0.2727272727272727,0.4285714285714285,0.3636363636363636,5.0,0.2631578947368421,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+बीटरूट,मूंगफली बटर,0.8450546264648438,0.1549451947212219,0.0,0.0,0.3529411764705882,5.0,0.4545454545454545,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+भिन्डी (ओखरा),राइस नूडल्स,0.7678091526031494,0.2321906685829162,0.125,0.25,0.1666666666666666,2.0,0.1538461538461538,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+रागी सेमिया,राजमा,0.8920252323150635,0.1079749464988708,0.1666666666666666,0.5,0.5,6.0,0.5454545454545454,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+लहसुन चटनी,लेमन ग्रास,0.8087930679321289,0.1912068128585815,0.0,0.0,0.3,0.0,0.0,0,REVIEW,REVIEWED,automatic;review,Requires further verification
+हरा बीन्स,हरी,0.8178086280822754,0.1821913719177246,0.25,1.0,0.5,6.0,0.6666666666666666,0,REVIEW,REVIEWED,automatic;review,Requires further verification

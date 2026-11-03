@@ -1,0 +1,20 @@
+{
+    "training_samples": 98,
+    "testing_samples": 25,
+    "accuracy": 0.68,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "confusion_matrix": [
+        [
+            17,
+            7
+        ],
+        [
+            1,
+            0
+        ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.94      0.71      0.81        24\n           1       0.00      0.00      0.00         1\n\n    accuracy                           0.68        25\n   macro avg       0.47      0.35      0.40        25\nweighted avg       0.91      0.68      0.78        25\n",
+    "roc_auc": 0.20833333333333337
+}
